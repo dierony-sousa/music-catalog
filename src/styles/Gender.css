@@ -1,0 +1,48 @@
+/* Gender.css */
+
+/* Estilos para a lista de gêneros */
+.gender-list {
+  list-style: none; /* Remove os marcadores de lista (pontos) */
+  padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+/* Estilos para cada item do gênero */
+.gender-item {
+  background-color: #fff; /* Define a cor de fundo do item do gênero */
+  border: 1px solid #ddd; /* Adiciona uma borda com cor cinza */
+  margin: 10px; /* Define margens externas ao redor do item do gênero */
+  padding: 20px; /* Adiciona espaçamento interno no item do gênero */
+  border-radius: 5px; /* Adiciona cantos arredondados ao item */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+  transition: transform 0.2s; /* Adiciona uma transição de transformação ao passar o mouse */
+}
+
+/* Estilos para o item do gênero ao passar o mouse */
+.gender-item:hover {
+  transform: scale(
+    1.02
+  ); /* Aumenta ligeiramente o tamanho do item ao passar o mouse */
+}
+
+/* Estilos para o nome do gênero */
+.gender-name {
+  font-size: 24px; /* Define o tamanho da fonte do nome do gênero */
+  margin: 10px 0; /* Define margens superior e inferior para separar o nome da descrição */
+}
+
+/* Estilos para a descrição do gênero */
+.gender-description {
+  color: #777; /* Define a cor do texto da descrição com uma tonalidade de cinza */
+}
+
+/* Estilos para o link "Ver produtos" */
+.gender-link {
+  text-decoration: none; /* Remove a decoração de texto (sublinhado) do link */
+  color: #007bff; /* Define a cor do link */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Estilos para o link "Ver produtos" ao passar o mouse */
+.gender-link:hover {
+  text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link */
+}

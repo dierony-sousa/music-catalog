@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Define a fonte e estilos padrão para todo o corpo do documento */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimento padrão */
+  background-color: #f5f5f5; /* Define a cor de fundo */
+}
+
+/* Estilos para o cabeçalho da página */
+.header {
+  background-color: orangered; /* Define a cor de fundo do cabeçalho */
+  color: white; /* Define a cor do texto do cabeçalho */
+  padding: 20px; /* Adiciona espaçamento interno */
+  text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+/* Estilos para o contêiner principal */
+.container {
+  max-width: 1200px; /* Define a largura máxima do contêiner */
+  margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+  padding: 20px; /* Adiciona espaçamento interno */
+  background-color: white; /* Define a cor de fundo do contêiner */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao contêiner */
+}
+
+/* Estilos para o botão "Voltar" */
+.back-button {
+  display: inline-block; /* Permite que o botão seja exibido em linha com o texto */
+  padding: 10px 20px; /* Define o preenchimento interno do botão */
+  background-color: #333; /* Define a cor de fundo do botão */
+  color: white; /* Define a cor do texto do botão */
+  text-decoration: none; /* Remove a decoração de texto (sublinhado) */
+  border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+  margin-top: 20px; /* Adiciona margem superior para separar do conteúdo acima */
+  transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o link */
+.link {
+  text-decoration: none; /* Remove a decoração de texto (sublinhado) */
+  color: #007bff; /* Define a cor do link */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Estilos para o link ao passar o mouse */
+.link:hover {
+  text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link */
+}

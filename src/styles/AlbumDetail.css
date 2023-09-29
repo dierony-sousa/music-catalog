@@ -1,0 +1,53 @@
+/* AlbumDetail.css */
+
+/* Estilos para a lista de álbuns */
+.album-list {
+  list-style: none; /* Remove os marcadores de lista padrão */
+  padding: 0; /* Remove o espaçamento interno da lista */
+}
+
+/* Estilos para cada item de álbum */
+.album-item {
+  background-color: #fff; /* Define a cor de fundo dos itens do álbum */
+  border: 1px solid #ddd; /* Adiciona uma borda com cor cinza aos itens do álbum */
+  margin: 10px; /* Define margens externas ao redor dos itens do álbum */
+  padding: 20px; /* Adiciona espaçamento interno aos itens do álbum */
+  border-radius: 5px; /* Adiciona cantos arredondados aos itens do álbum */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil aos itens do álbum */
+  transition: transform 0.2s; /* Adiciona uma transição de transformação (escala) ao passar o mouse */
+}
+
+/* Estilos para os itens de álbum ao passar o mouse */
+.album-item:hover {
+  transform: scale(
+    1.02
+  ); /* Aumenta ligeiramente o tamanho do item ao passar o mouse */
+}
+
+/* Estilos para o nome do álbum */
+.album-name {
+  font-size: 24px; /* Define o tamanho da fonte do nome do álbum */
+  margin: 10px 0; /* Define margens superior e inferior para separar o nome da descrição */
+}
+
+/* Estilos para a descrição do álbum */
+.album-description {
+  color: #777; /* Define a cor do texto da descrição com uma tonalidade de cinza */
+}
+
+/* Estilos para o botão "Voltar para a página inicial" */
+.back-button {
+  display: inline-block; /* Define o botão como um elemento em linha */
+  padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
+  background-color: #333; /* Define a cor de fundo do botão */
+  color: white; /* Define a cor do texto do botão como branco */
+  text-decoration: none; /* Remove a decoração de texto (sublinhado) do botão */
+  border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+  margin-top: 20px; /* Define uma margem superior para separar o botão do conteúdo acima */
+  transition: background-color 0.3s; /* Adiciona uma transição de cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o botão "Voltar para a página inicial" ao passar o mouse */
+.back-button:hover {
+  background-color: #555; /* Define uma cor de fundo diferente ao passar o mouse sobre o botão */
+}
